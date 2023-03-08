@@ -14,6 +14,7 @@ class FooServiceTest extends TestCase
         $data = $service->doBar();
 
         $this->assertEquals(2, count($data));
+
         $this->assertEquals([
             'foo' => 'some bar data',
             'bar' => 'some foo data',
